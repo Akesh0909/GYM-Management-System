@@ -431,7 +431,8 @@ section,footer{
 }
 
 .startheading h1 {
-  color: rgb(255, 255, 255);
+  color: gold;
+ 
   font-size: 5rem;
 }
 
@@ -447,6 +448,37 @@ section,footer{
 }
 
 .startheading p a:hover {
+  color: #ff0000;
+}
+/* diet chart heading */
+.dietheading {
+  background: url(../img/diet.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  background-position: center; 
+  text-align: center;
+  padding-top: 28%;
+  
+  
+}
+
+.dietheading h1 {
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+}
+
+.dietheading p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  color: rgb(0, 255, 21)
+}
+
+.dietheading p a {
+  color: rgb(255, 251, 0);
+  padding-right: .5rem;
+}
+
+.dietheading p a:hover {
   color: #ff0000;
 }
 .contact{
@@ -513,7 +545,7 @@ section,footer{
   font-size: 3rem;
   text-align: center;
   padding-bottom: 3rem;
-  color: rgb(224, 44, 44);
+  color:gold;
 }
 
 .contact .row form .inputBox {
